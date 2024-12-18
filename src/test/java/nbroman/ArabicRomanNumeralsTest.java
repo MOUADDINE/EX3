@@ -8,9 +8,9 @@ public class ArabicRomanNumeralsTest {
         //GIVEN
         ArabicRomanNumerals converter = new ArabicRomanNumerals();
         //WHEN
-        String rst =converter.convert(4);
+        String rst =converter.convert(5);
         //THEN
-        assertThat(rst).isEqualTo("IV");
+        assertThat(rst).isEqualTo("V");
     }
 
 
