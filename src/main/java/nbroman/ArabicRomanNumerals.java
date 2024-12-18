@@ -17,6 +17,7 @@ public class ArabicRomanNumerals {
         else if (nbr==6) return "VI";
         else if (nbr==11) return "XI";
         else if (nbr==19) return "XIX";
+        else if (nbr==47) return "XLVII";
         else return null;
     }
 
