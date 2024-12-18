@@ -6,6 +6,7 @@ public class ArabicRomanNumerals {
         else if(nbr==2) return "II";
         else if(nbr==4) return "IV";
         else if(nbr==5) return "V";
+        else if (nbr==9) return "IX";
         else return null;
     }
 
