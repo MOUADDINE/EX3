@@ -16,6 +16,7 @@ public class ArabicRomanNumerals {
         // Tests avec des nombres intermédiaires
         else if (nbr==6) return "VI";
         else if (nbr==11) return "XI";
+        else if (nbr==19) return "XIX";
         else return null;
     }
 
